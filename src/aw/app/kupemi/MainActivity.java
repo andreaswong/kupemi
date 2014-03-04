@@ -97,6 +97,7 @@ public class MainActivity extends Activity {
 					}
 					Rujak.d(candidatesWithPhoto.size());
 
+					mSkip.setVisibility(View.VISIBLE);
 					mQWrap.setVisibility(View.VISIBLE);
 					showNextQuestion();
 				} catch (JSONException e) {

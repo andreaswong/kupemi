@@ -79,19 +79,19 @@
   </component>
   <component name="FileEditorManager">
     <leaf>
-      <file leaf-file-name="MainActivity.java" pinned="false" current="false" current-in-tab="false">
+      <file leaf-file-name="MainActivity.java" pinned="false" current="true" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/aw/app/kupemi/MainActivity.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="115" column="35" selection-start="3361" selection-end="3361" vertical-scroll-proportion="0.0" vertical-offset="1537" max-vertical-offset="2482">
+            <state line="99" column="52" selection-start="2979" selection-end="2979" vertical-scroll-proportion="0.70735526" vertical-offset="1231" max-vertical-offset="2499">
               <folding>
                 <element signature="imports" expanded="true" />
                 <element signature="e#1702#2088#0" expanded="true" />
                 <element signature="e#2083#2084#0" expanded="true" />
                 <element signature="e#2119#2229#0" expanded="true" />
                 <element signature="e#2224#2225#0" expanded="true" />
-                <element signature="e#2328#3080#0" expanded="true" />
-                <element signature="e#3075#3076#0" expanded="true" />
-                <element signature="e#3669#3677#0" expanded="true" />
+                <element signature="e#2328#3120#0" expanded="true" />
+                <element signature="e#3115#3116#0" expanded="true" />
+                <element signature="e#3709#3717#0" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -177,13 +177,13 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="main.xml" pinned="false" current="true" current-in-tab="true">
+      <file leaf-file-name="main.xml" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/res/layout/main.xml">
           <provider editor-type-id="android-designer">
             <state />
           </provider>
           <provider selected="true" editor-type-id="text-editor">
-            <state line="29" column="39" selection-start="1459" selection-end="1459" vertical-scroll-proportion="0.7274306" vertical-offset="74" max-vertical-offset="731">
+            <state line="30" column="36" selection-start="1497" selection-end="1497" vertical-scroll-proportion="-8.72" vertical-offset="74" max-vertical-offset="748">
               <folding />
             </state>
           </provider>
@@ -207,8 +207,8 @@
         <option value="$PROJECT_DIR$/src/aw/app/kupemi/Province.java" />
         <option value="$PROJECT_DIR$/src/aw/app/kupemi/Candidate.java" />
         <option value="$PROJECT_DIR$/src/aw/app/kupemi/adapters/AnswersAdapter.java" />
-        <option value="$PROJECT_DIR$/src/aw/app/kupemi/MainActivity.java" />
         <option value="$PROJECT_DIR$/res/layout/main.xml" />
+        <option value="$PROJECT_DIR$/src/aw/app/kupemi/MainActivity.java" />
       </list>
     </option>
   </component>
@@ -642,22 +642,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/aw/app/kupemi/MainActivity.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="115" column="35" selection-start="3361" selection-end="3361" vertical-scroll-proportion="0.0" vertical-offset="1537" max-vertical-offset="2482">
-          <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="e#1702#2088#0" expanded="true" />
-            <element signature="e#2083#2084#0" expanded="true" />
-            <element signature="e#2119#2229#0" expanded="true" />
-            <element signature="e#2224#2225#0" expanded="true" />
-            <element signature="e#2328#3080#0" expanded="true" />
-            <element signature="e#3075#3076#0" expanded="true" />
-            <element signature="e#3669#3677#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="jar://D:/android/dev/sdk/platforms/android-17/android.jar!/java/util/ArrayList.class">
       <provider selected="true" editor-type-id="text-editor">
         <state line="58" column="0" selection-start="2033" selection-end="2033" vertical-scroll-proportion="0.0" vertical-offset="432" max-vertical-offset="1071">
@@ -677,8 +661,24 @@
         <state />
       </provider>
       <provider selected="true" editor-type-id="text-editor">
-        <state line="29" column="39" selection-start="1459" selection-end="1459" vertical-scroll-proportion="0.7274306" vertical-offset="74" max-vertical-offset="731">
+        <state line="30" column="36" selection-start="1497" selection-end="1497" vertical-scroll-proportion="-8.72" vertical-offset="74" max-vertical-offset="748">
           <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/aw/app/kupemi/MainActivity.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="99" column="52" selection-start="2979" selection-end="2979" vertical-scroll-proportion="0.70735526" vertical-offset="1231" max-vertical-offset="2499">
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#1702#2088#0" expanded="true" />
+            <element signature="e#2083#2084#0" expanded="true" />
+            <element signature="e#2119#2229#0" expanded="true" />
+            <element signature="e#2224#2225#0" expanded="true" />
+            <element signature="e#2328#3120#0" expanded="true" />
+            <element signature="e#3115#3116#0" expanded="true" />
+            <element signature="e#3709#3717#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
