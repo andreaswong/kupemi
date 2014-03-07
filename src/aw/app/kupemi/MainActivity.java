@@ -1,6 +1,7 @@
 package aw.app.kupemi;
 
 import android.app.Activity;
+import android.net.Uri;
 import android.os.Bundle;
 import android.text.TextUtils;
 import android.view.View;
@@ -117,8 +118,12 @@ public class MainActivity extends Activity {
 		mMultiplier.setText("x " + String.valueOf(multiplier));
 
 		try {
-			Picasso.with(this).load(candidate.getString("foto_url")).into(mQThumb);
-			Rujak.d(candidate.getString("foto_url"));
+			String url = candidate.getString("foto_url");
+			int side = (int) Math.ceil(getResources().getDisplayMetrics().density) * 180;
+			url = "http://pemilu-backend.appspot.com/remote/image_proxy?url=" + Uri.encode(url) + "&side=" + side;
+			Picasso.with(this).load(url).into(mQThumb);
+
+			Rujak.d(url);
 			mQuestion.setText("Kandidat dengan foto di sebelah kiri bernama:");
 
 			correctAnswer = r.nextInt(4);

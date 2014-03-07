@@ -13,5 +13,4 @@ public class Rujak {
 	public static void d(Object msg) {
 		Log.d("_Rujak_", String.valueOf(msg));
 	}
-
 }
